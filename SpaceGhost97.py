@@ -1,48 +1,48 @@
-
 import random
-luckynumber =random.randint(1,20)
-print("Your lucky number is",luckynumber)
+
+luckynumber=random.randint(1,20)
+print(luckynumber)
+
 match luckynumber:
     case 1:
-        print("Let's go get some Chinese")
+        print("chinese")
     case 2:
-        print("Let's go get some Mexican")
+        print("mexican")
     case 3:
-        print("Let's go get some Greek")
+        print("greek")
     case 4:
-        print("Let's go get something Heathy")
+        print("ethiopian")
     case 5:
-        print("Let's go get some Indian")
+        print("vegan")
     case 6:
-        print("Let's go get some Seafood")
+        print("indian")
     case 7:
-        print("Let's go get some American")
+        print("seafood")
     case 8:
-        print("Let's go get some Thai")
+        print("american")
     case 9:
-        print("Let's go get some Pizza")
+        print("thai")
     case 10:
-        print("Let's go get some Subs")
+        print("pizza")
     case 11:
-        print("Let's go get some Japanase")
+        print("subs")
     case 12:
-        print("Let's go get some BBQ")
+        print("japanese")
     case 13:
-        print("Let's go get some Ramen")
+        print("bbq")
     case 14:
-        print("Let's go get some Vietnamese")
+        print("ramen")
     case 15:
-        print("Let's go get some Buffet")
+        print("vietnamese")
     case 16:
-        print("Let's go get some Brazilian")
+        print("buffet")
     case 17:
-        print("Let's go get some Cuban")
+        print("brazillian")
     case 18:
-        print("Let's go get some Jamaican")
+        print("cuban")
     case 19:
-        print("Let's go get some Ethiopian")
+        print("jamaican")
     case 20:
-        print("Let's go get some Pub")
+        print("pub")
     case _:
-        print("Let's go get some Soul Food")
-
+        print("jacked")
